@@ -36,3 +36,6 @@ C:\Users\BRYAN\source\repos\location film\bin\Debug\net8.0-windows\runtimes\unix
 C:\Users\BRYAN\source\repos\location film\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\BRYAN\source\repos\location film\obj\Debug\net8.0-windows\location film.csproj.AssemblyReference.cache
 C:\Users\BRYAN\source\repos\location film\obj\Debug\net8.0-windows\location.45A31B9E.Up2Date
+C:\Users\BRYAN\source\repos\location film\obj\Debug\net8.0-windows\location film.sourcelink.json
+C:\Users\BRYAN\source\repos\location film\obj\Debug\net8.0-windows\location_film.Form3.resources
+C:\Users\BRYAN\source\repos\location film\obj\Debug\net8.0-windows\location_film.Form4.resources

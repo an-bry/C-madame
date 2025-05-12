@@ -35,8 +35,11 @@
             panel5 = new Panel();
             fileSystemWatcher1 = new FileSystemWatcher();
             dataGridView1 = new DataGridView();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             checkBox1 = new CheckBox();
             label2 = new Label();
             label3 = new Label();
@@ -46,10 +49,14 @@
             button4 = new Button();
             panel3 = new Panel();
             label7 = new Label();
-            textBox5 = new TextBox();
             textBox3 = new TextBox();
             label6 = new Label();
             textBox6 = new TextBox();
+            button5 = new Button();
+            button6 = new Button();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox5 = new TextBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
@@ -122,25 +129,48 @@
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.BackgroundColor = SystemColors.ButtonFace;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(796, 101);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
+            dataGridView1.Location = new Point(789, 101);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(668, 551);
+            dataGridView1.Size = new Size(656, 510);
             dataGridView1.TabIndex = 3;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             // 
-            // textBox1
+            // Column1
             // 
-            textBox1.Location = new Point(187, 260);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(251, 31);
-            textBox1.TabIndex = 4;
+            Column1.HeaderText = "ID";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            Column1.Width = 150;
             // 
-            // textBox2
+            // Column2
             // 
-            textBox2.Location = new Point(187, 182);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(251, 31);
-            textBox2.TabIndex = 5;
+            Column2.HeaderText = "TITRE";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            Column2.Width = 150;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "GENRE";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            Column3.Width = 150;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "PRIX";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            Column4.Width = 150;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "DISPONILITE";
+            Column5.MinimumWidth = 8;
+            Column5.Name = "Column5";
+            Column5.Width = 150;
             // 
             // checkBox1
             // 
@@ -156,13 +186,13 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = SystemColors.AppWorkspace;
+            label2.BackColor = SystemColors.ButtonShadow;
             label2.Font = new Font("Tahoma", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(50, 186);
             label2.Name = "label2";
-            label2.Size = new Size(74, 27);
+            label2.Size = new Size(87, 27);
             label2.TabIndex = 9;
-            label2.Text = "NOM:";
+            label2.Text = "TITRE:";
             label2.Click += label2_Click;
             // 
             // label3
@@ -252,14 +282,6 @@
             label7.TabIndex = 21;
             label7.Text = "ID";
             // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(187, 105);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(251, 31);
-            textBox5.TabIndex = 20;
-            textBox5.TextChanged += textBox5_TextChanged;
-            // 
             // textBox3
             // 
             textBox3.Location = new Point(187, 327);
@@ -282,16 +304,65 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(892, 50);
+            textBox6.Location = new Point(780, 50);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(403, 31);
             textBox6.TabIndex = 21;
+            // 
+            // button5
+            // 
+            button5.BackColor = SystemColors.MenuHighlight;
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.ForeColor = SystemColors.ButtonFace;
+            button5.Location = new Point(1189, 48);
+            button5.Name = "button5";
+            button5.Size = new Size(140, 34);
+            button5.TabIndex = 22;
+            button5.Text = "RECHERCHER";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.Gray;
+            button6.Location = new Point(1335, 44);
+            button6.Name = "button6";
+            button6.Size = new Size(129, 42);
+            button6.TabIndex = 23;
+            button6.Text = "RAFRAICHIR";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(187, 260);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(251, 31);
+            textBox1.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(187, 182);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(251, 31);
+            textBox2.TabIndex = 5;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(187, 105);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(251, 31);
+            textBox5.TabIndex = 20;
+            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1476, 665);
+            Controls.Add(button6);
+            Controls.Add(button5);
             Controls.Add(textBox6);
             Controls.Add(dataGridView1);
             Controls.Add(panel2);
@@ -320,8 +391,6 @@
         private Label label1;
         private FileSystemWatcher fileSystemWatcher1;
         private DataGridView dataGridView1;
-        private TextBox textBox2;
-        private TextBox textBox1;
         private DateTimePicker dateTimePicker1;
         private Label label2;
         private CheckBox checkBox2;
@@ -335,9 +404,17 @@
         private Panel panel3;
         private Label label6;
         private TextBox textBox3;
-        private TextBox textBox4;
         private Label label7;
-        private TextBox textBox5;
         private TextBox textBox6;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private Button button5;
+        private Button button6;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private TextBox textBox5;
     }
 }

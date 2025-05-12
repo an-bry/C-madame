@@ -28,15 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
             button2 = new Button();
             button1 = new Button();
             panel4 = new Panel();
             label1 = new Label();
             panel2 = new Panel();
+            panel6 = new Panel();
+            button4 = new Button();
+            button3 = new Button();
             panel5 = new Panel();
             panel3 = new Panel();
-            button3 = new Button();
+            button5 = new Button();
+            panel7 = new Panel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -104,6 +109,10 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(52, 73, 94);
+            panel2.Controls.Add(panel7);
+            panel2.Controls.Add(button5);
+            panel2.Controls.Add(panel6);
+            panel2.Controls.Add(button4);
             panel2.Controls.Add(button3);
             panel2.Controls.Add(panel5);
             panel2.Font = new Font("Segoe UI Black", 50F);
@@ -112,6 +121,44 @@
             panel2.Size = new Size(290, 629);
             panel2.TabIndex = 1;
             panel2.Paint += panel2_Paint;
+            // 
+            // panel6
+            // 
+            panel6.BackgroundImage = (Image)resources.GetObject("panel6.BackgroundImage");
+            panel6.BackgroundImageLayout = ImageLayout.Stretch;
+            panel6.Location = new Point(10, 151);
+            panel6.Name = "panel6";
+            panel6.RightToLeft = RightToLeft.Yes;
+            panel6.Size = new Size(45, 48);
+            panel6.TabIndex = 3;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.AliceBlue;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Segoe UI Black", 10F);
+            button4.Location = new Point(57, 151);
+            button4.Name = "button4";
+            button4.Size = new Size(220, 48);
+            button4.TabIndex = 6;
+            button4.Text = "CLIENTS";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.AliceBlue;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI Black", 10F);
+            button3.Location = new Point(57, 44);
+            button3.Name = "button3";
+            button3.Size = new Size(220, 48);
+            button3.TabIndex = 5;
+            button3.Text = "FIMLS";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // panel5
             // 
@@ -132,19 +179,29 @@
             panel3.TabIndex = 2;
             panel3.Paint += panel3_Paint;
             // 
-            // button3
+            // button5
             // 
-            button3.BackColor = Color.AliceBlue;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI Black", 10F);
-            button3.Location = new Point(57, 44);
-            button3.Name = "button3";
-            button3.Size = new Size(220, 48);
-            button3.TabIndex = 5;
-            button3.Text = "FIMLS";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            button5.BackColor = Color.AliceBlue;
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Segoe UI Black", 10F);
+            button5.Location = new Point(57, 267);
+            button5.Name = "button5";
+            button5.Size = new Size(220, 48);
+            button5.TabIndex = 7;
+            button5.Text = "LOCATION";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
+            // panel7
+            // 
+            panel7.BackgroundImage = (Image)resources.GetObject("panel7.BackgroundImage");
+            panel7.BackgroundImageLayout = ImageLayout.Stretch;
+            panel7.Location = new Point(10, 267);
+            panel7.Name = "panel7";
+            panel7.RightToLeft = RightToLeft.Yes;
+            panel7.Size = new Size(45, 48);
+            panel7.TabIndex = 8;
             // 
             // Form1
             // 
@@ -173,5 +230,9 @@
         private Button button2;
         private Panel panel5;
         private Button button3;
+        private Button button4;
+        private Panel panel6;
+        private Panel panel7;
+        private Button button5;
     }
 }
