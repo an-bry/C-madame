@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\BRYAN\\source\\repos\\location film\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|C:\\Users\\BRYAN\\source\\repos\\location film\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\bryan\\source\\repos\\location film\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -76,8 +76,7 @@
               "RelativeToolTip": "Form4.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:54:13.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T18:54:13.248Z"
             },
             {
               "$type": "Document",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "Form4.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:40:59.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T18:40:59.977Z"
             },
             {
               "$type": "Document",
