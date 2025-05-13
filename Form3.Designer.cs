@@ -61,6 +61,7 @@
             AD = new DataGridViewTextBoxColumn();
             AE = new DataGridViewTextBoxColumn();
             AF = new DataGridViewTextBoxColumn();
+            label4 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -174,6 +175,7 @@
             // panel3
             // 
             panel3.BackColor = SystemColors.ButtonShadow;
+            panel3.Controls.Add(label4);
             panel3.Controls.Add(textBox5);
             panel3.Controls.Add(textBox4);
             panel3.Controls.Add(textBox3);
@@ -391,6 +393,17 @@
             AF.Name = "AF";
             AF.Width = 150;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Tahoma", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Snow;
+            label4.Location = new Point(187, 26);
+            label4.Name = "label4";
+            label4.Size = new Size(139, 34);
+            label4.TabIndex = 28;
+            label4.Text = "je t aime";
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -457,5 +470,6 @@
         private TextBox textBox3;
         private TextBox textBox2;
         private TextBox textBox1;
+        private Label label4;
     }
 }
