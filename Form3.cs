@@ -168,5 +168,33 @@ namespace location_film
                 dataGridView2.DataSource = dt;
             }
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string connectionString = "Data Source=films.db;Version=3;";
+            string recherche = textBox6.Text.Trim();
+
+            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+            {
+                string query = "SELECT * FROM Clients WHERE nom LIKE @recherche OR prenom LIKE @recherche";
+                SQLiteDataAdapter adapter = new SQLiteDataAdapter(query, conn);
+                adapter.SelectCommand.Parameters.AddWithValue("@recherche", "%" + recherche + "%");
+
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+
+                dataGridView2.DataSource = dt;
+            }
+        }
+
+        private void dataGridView2_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

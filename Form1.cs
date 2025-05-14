@@ -69,7 +69,9 @@ namespace location_film
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
         }
     }
 }

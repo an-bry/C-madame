@@ -39,6 +39,7 @@
             button3 = new Button();
             panel5 = new Panel();
             panel3 = new Panel();
+            label4 = new Label();
             textBox5 = new TextBox();
             textBox4 = new TextBox();
             textBox3 = new TextBox();
@@ -61,7 +62,6 @@
             AD = new DataGridViewTextBoxColumn();
             AE = new DataGridViewTextBoxColumn();
             AF = new DataGridViewTextBoxColumn();
-            label4 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
@@ -193,6 +193,16 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(498, 566);
             panel3.TabIndex = 17;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Tahoma", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Snow;
+            label4.Location = new Point(187, 26);
+            label4.Name = "label4";
+            label4.Size = new Size(0, 34);
+            label4.TabIndex = 28;
             // 
             // textBox5
             // 
@@ -335,6 +345,7 @@
             button7.TabIndex = 23;
             button7.Text = "RECHERCHER";
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -357,6 +368,7 @@
             dataGridView2.RowHeadersWidth = 62;
             dataGridView2.Size = new Size(684, 502);
             dataGridView2.TabIndex = 25;
+            dataGridView2.CellContentClick += dataGridView2_CellContentClick_1;
             // 
             // AB
             // 
@@ -392,17 +404,6 @@
             AF.MinimumWidth = 8;
             AF.Name = "AF";
             AF.Width = 150;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Tahoma", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.Snow;
-            label4.Location = new Point(187, 26);
-            label4.Name = "label4";
-            label4.Size = new Size(139, 34);
-            label4.TabIndex = 28;
-            label4.Text = "je t aime";
             // 
             // Form3
             // 

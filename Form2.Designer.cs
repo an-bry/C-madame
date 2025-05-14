@@ -48,15 +48,15 @@
             button2 = new Button();
             button4 = new Button();
             panel3 = new Panel();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             label7 = new Label();
+            textBox5 = new TextBox();
             textBox3 = new TextBox();
             label6 = new Label();
             textBox6 = new TextBox();
             button5 = new Button();
             button6 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox5 = new TextBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
@@ -127,7 +127,7 @@
             // dataGridView1
             // 
             dataGridView1.AllowUserToOrderColumns = true;
-            dataGridView1.BackgroundColor = SystemColors.ButtonFace;
+            dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
             dataGridView1.Location = new Point(789, 101);
@@ -271,6 +271,20 @@
             panel3.TabIndex = 16;
             panel3.Paint += panel3_Paint;
             // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(187, 182);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(251, 31);
+            textBox2.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(187, 260);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(251, 31);
+            textBox1.TabIndex = 4;
+            // 
             // label7
             // 
             label7.AutoSize = true;
@@ -281,6 +295,14 @@
             label7.Size = new Size(40, 27);
             label7.TabIndex = 21;
             label7.Text = "ID";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(187, 105);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(251, 31);
+            textBox5.TabIndex = 20;
+            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // textBox3
             // 
@@ -333,28 +355,6 @@
             button6.Text = "RAFRAICHIR";
             button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(187, 260);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(251, 31);
-            textBox1.TabIndex = 4;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(187, 182);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(251, 31);
-            textBox2.TabIndex = 5;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(187, 105);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(251, 31);
-            textBox5.TabIndex = 20;
-            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // Form2
             // 

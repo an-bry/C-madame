@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\",
+  "WorkspaceRootPath": "C:\\Users\\BRYAN\\source\\repos\\location film\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\bryan\\source\\repos\\location film\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|C:\\Users\\BRYAN\\source\\repos\\location film\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\bryan\\source\\repos\\location film\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\hello\\source\\repos\\c#\\c-madame\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|C:\\Users\\BRYAN\\source\\repos\\location film\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|C:\\Users\\BRYAN\\source\\repos\\location film\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|C:\\Users\\BRYAN\\source\\repos\\location film\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\bryan\\source\\repos\\location film\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\bryan\\source\\repos\\location film\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\bryan\\source\\repos\\location film\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|c:\\users\\bryan\\source\\repos\\location film\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{734B6E83-9688-4217-9571-5D044AE42394}|location film.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form1.cs",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAIAwwEkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwEgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:40:38.081Z",
               "IsPinned": true,
@@ -68,114 +68,108 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form4.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form4.Designer.cs",
-              "RelativeDocumentMoniker": "Form4.Designer.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form4.Designer.cs",
-              "RelativeToolTip": "Form4.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:54:13.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form4.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form4.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form4.cs",
               "RelativeDocumentMoniker": "Form4.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form4.cs",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form4.cs",
               "RelativeToolTip": "Form4.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMBAAAAAAAAAAASwBwBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T18:40:59.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form3.cs",
-              "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form3.cs",
-              "RelativeToolTip": "Form3.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T17:42:40.291Z",
+              "WhenOpened": "2025-05-14T17:34:43.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Form2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form2.Designer.cs",
-              "RelativeDocumentMoniker": "Form2.Designer.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form2.Designer.cs",
-              "RelativeToolTip": "Form2.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:57:57.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Form3.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form3.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form3.cs",
               "RelativeDocumentMoniker": "Form3.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form3.cs [Conception]",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form3.cs [Conception]",
               "RelativeToolTip": "Form3.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T17:10:09.496Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2025-05-11T17:10:09.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form2.cs",
-              "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAD4v9EAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T10:15:50.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T09:55:58.54Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Form2.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form2.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form2.cs [Conception]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\BRYAN\\source\\repos\\location film\\Form2.cs [Conception]",
+              "RelativeToolTip": "Form2.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T09:56:38.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Form4.cs [Conception]",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form4.cs",
+              "RelativeDocumentMoniker": "Form4.cs",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form4.cs [Conception]",
+              "RelativeToolTip": "Form4.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:34:30.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAMMAAAAAAAAAAAD4v9EAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:15:50.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Conception]",
-              "DocumentMoniker": "C:\\Users\\Hello\\source\\repos\\C#\\C-madame\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form1.cs [Conception]*",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\BRYAN\\source\\repos\\location film\\Form1.cs [Conception]*",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form1.cs [Conception]",
+              "RelativeToolTip": "Form1.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T08:27:54.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form3.cs",
+              "RelativeDocumentMoniker": "Form3.cs",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form3.cs",
+              "RelativeToolTip": "Form3.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAUwIoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T17:42:40.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form2.Designer.cs",
+              "RelativeToolTip": "Form2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T16:57:57.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\BRYAN\\source\\repos\\location film\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:55:58.54Z"
             }
           ]
         }
