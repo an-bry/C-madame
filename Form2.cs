@@ -29,20 +29,20 @@ namespace location_film
         private void Form2_Load_1(object sender, EventArgs e)
         {
             ChargerDonnees();
-            string connectionString = "Data Source=films.db;Version=3;";
+            //string connectionString = "Data Source=films.db;Version=3;";
 
-            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
-            {
-                try
-                {
-                    conn.Open();
-                    MessageBox.Show("Connexion réussie dans Form2 !");
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Erreur de connexion : " + ex.Message);
-                }
-            }
+            //using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+            //{
+            //    try
+            //    {
+            //        conn.Open();
+            //        MessageBox.Show("Connexion réussie dans Form2 !");
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        MessageBox.Show("Erreur de connexion : " + ex.Message);
+            //    }
+            //}
         }
 
         private void label1_Click(object sender, EventArgs e) { }
@@ -156,7 +156,7 @@ namespace location_film
         }
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e) { }
-       
+
 
         private void ChargerDonnees()
         {
@@ -233,6 +233,28 @@ namespace location_film
                     e.FormattingApplied = true;
                 }
             }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
+            this.Hide();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
         }
     }
 }

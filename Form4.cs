@@ -5,9 +5,13 @@ using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
 using System.Linq;
+using System.Net.Quic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Tab;
+using System.Net;
+using System.Net.Mail;
 
 namespace location_film
 {
@@ -35,12 +39,13 @@ namespace location_film
             string dateLocation = dateTimePicker2.Value.ToString("yyyy-MM-dd");
             string dateRetour = dateTimePicker1.Value.ToString("yyyy-MM-dd");
 
+
             using (SQLiteConnection conn = new SQLiteConnection(connectionString))
             {
                 conn.Open();
 
-                string query = "INSERT INTO Locations (id,client_id,film_id,date_location,date_retour,montant) " +
-                               "VALUES (@id,@clientId, @filmId, @dateLocation, @dateRetour,@montant)";
+                string query = "INSERT INTO Locations (id, client_id, film_id, date_location, date_retour, montant) " +
+                               "VALUES (@id, @clientId, @filmId, @dateLocation, @dateRetour, @montant)";
 
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
                 {
@@ -55,17 +60,101 @@ namespace location_film
                     {
                         cmd.ExecuteNonQuery();
                         MessageBox.Show("Ajout réussi !");
-                        // ChargerLocations(); // Recharge les données dans le DataGridView
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show("Erreur lors de l'ajout : " + ex.Message);
+                        return; // On arrête ici si l'insertion échoue
                     }
                 }
+
+                // Vérifier si la date de retour est dépassée
+                if (DateTime.TryParse(dateRetour.ToString(), out DateTime dateRetourA))
+                {
+                    if (dateRetourA < DateTime.Today)
+                    {
+                        int joursRetard = (DateTime.Today - dateRetourA).Days;
+                        int penalite = joursRetard * 2;
+                        string updateQuery = "UPDATE Locations SET montant = montant + @penalite WHERE id = @id";
+
+                        using (SQLiteCommand updateCmd = new SQLiteCommand(updateQuery, conn))
+                        {
+                            updateCmd.Parameters.AddWithValue("@id", Id);
+                            updateCmd.Parameters.AddWithValue("@penalite", penalite);
+
+                            try
+                            {
+                                updateCmd.ExecuteNonQuery();
+                                MessageBox.Show("Montant mis à jour pour cause de retour tardif !");
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show("Erreur lors de la mise à jour : " + ex.Message);
+                            }
+                        }
+                        string emailClient = "";
+                        string queryEmail = "SELECT email FROM Clients WHERE id = @clientId";
+                        using (SQLiteCommand cmdEmail = new SQLiteCommand(queryEmail, conn))
+                        {
+                            cmdEmail.Parameters.AddWithValue("@clientId", clientId);
+                            using (SQLiteDataReader reader = cmdEmail.ExecuteReader())
+                            {
+                                if (reader.Read())
+                                {
+                                    emailClient = reader["email"].ToString();
+                                }
+                            }
+                        }
+
+                        if (!string.IsNullOrEmpty(emailClient))
+                        {
+                            EnvoyerEmailRetard(emailClient, joursRetard, penalite);
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Date de retour invalide.");
+                }
+            
+
+            }
+                }
+
+        private void EnvoyerEmailRetard(string destinataire, int joursRetard, int penalite)
+        {
+            string expediteur = "andrianilanathierry@gmail.com"; 
+            string motDePasse = "qibiqxpuykknlmoa"; // à remplacer avec mot de passe d'application
+
+            MailMessage message = new MailMessage();
+            message.From = new MailAddress(expediteur);
+            message.To.Add(destinataire);
+            message.Subject = "Retard de retour de film";
+            message.Body = $"Bonjour,\n\nVous avez {joursRetard} jour(s) de retard sur votre location de film. " +
+                           $"Des frais de {penalite} € ont été ajoutés à votre facture.\n\nMerci de votre compréhension.";
+
+            SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+            smtp.Credentials = new NetworkCredential(expediteur, motDePasse);
+            smtp.EnableSsl = true;
+
+            try
+            {
+                smtp.Send(message);
+                MessageBox.Show("E-mail de retard envoyé.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur lors de l'envoi de l'e-mail : " + ex.Message);
             }
         }
+    
 
-        private void button6_Click(object sender, EventArgs e)
+
+
+
+
+
+private void button6_Click(object sender, EventArgs e)
         {
             string connectionString = "Data Source=films.db;Version=3;";
 
@@ -267,22 +356,25 @@ namespace location_film
         private void button7_Click(object sender, EventArgs e)
         {
             string connectionString = "Data Source=films.db;Version=3;";
-            string recherche = textBox6.Text.Trim();
+            DateTime dateDebut = dateTimePicker3.Value.Date;
+            DateTime dateFin = dateTimePicker4.Value.Date;
 
             using (SQLiteConnection conn = new SQLiteConnection(connectionString))
             {
-                string query = "SELECT * FROM Locations WHERE client_id LIKE @recherche OR film_id LIKE @recherche";
+                string query = "SELECT * FROM Locations WHERE date_location BETWEEN @dateDebut AND @dateFin";
                 SQLiteDataAdapter adapter = new SQLiteDataAdapter(query, conn);
-                adapter.SelectCommand.Parameters.AddWithValue("@recherche", "%" + recherche + "%");
+                adapter.SelectCommand.Parameters.AddWithValue("@dateDebut", dateDebut);
+                adapter.SelectCommand.Parameters.AddWithValue("@dateFin", dateFin);
 
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
 
                 dataGridView1.DataSource = dt;
             }
+
         }
 
-        
+
 
         private void button8_Click(object sender, EventArgs e)
         {
@@ -299,5 +391,44 @@ namespace location_film
                 dataGridView1.DataSource = dt;
             }
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.Show();
+            this.Hide();
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.Show();
+            this.Hide();
+        }
+
+        private void dateTimePicker4_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker3_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+        
+
     }
 }

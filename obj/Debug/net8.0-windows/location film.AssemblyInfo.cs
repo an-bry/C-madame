@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("location film")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+210ffc956ed2784890ce155315a91c01a84cd8ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f49f8feacea4ee14facc24b0a315d649e1f9ac9")]
 [assembly: System.Reflection.AssemblyProductAttribute("location film")]
 [assembly: System.Reflection.AssemblyTitleAttribute("location film")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
